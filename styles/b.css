@@ -79,6 +79,7 @@ nav {
     flex-direction: column;
 }
 }
+/* For tablete */
 @media screen and (min-width: 576px) and (max-with: 960) {
 header{
     padding: 50px;
@@ -87,4 +88,38 @@ header{
     flex-direction: column;
    } 
     
+}
+main{
+    max: width 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-content{
+    padding-right: 70pt;
+    padding-left: 70px;
+}
+.teams-title{
+    font-size: 45px;
+}
+.Quick-list{
+    color:  #727272;
+
+font-size: 45px;
+
+font-weight: 500;
+}
+.text-fiture{
+    color: #FF900E;
+
+font-size: 45px;
+
+font-weight: 700;
 }
