@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../simple responsive layout"
+		},
+		{
+			"path": "../../simple responsive example"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "simple responsive example"
+	}
+}
